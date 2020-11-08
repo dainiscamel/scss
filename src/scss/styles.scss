@@ -1,0 +1,20 @@
+@import "./variables";
+
+
+h2 {
+  background-color: $bg;
+}
+
+.box {
+  margin-top: 20px;
+  h2 {
+    color: blue;
+    &:hover {
+      background-color: powderblue;
+    }
+  }
+  button {
+    color: pink;
+  }
+  
+}
